@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AKV: Online Product Exchange Platform
 
-## Getting Started
+## Abstract
 
-First, run the development server:
+The project aims to develop an Online Product Exchange Platform. It focuses on enabling users to list products for sale and purchase items within a 50km radius, ensuring convenience for local transactions. **The existing online marketplace platforms** offer vast listings without focusing on locality or distance-based search filtering leading to inefficiencies for users seeking to buy or sell items within their local area. **The proposed AKV solution introduces a location-based filtering mechanism** that allows users to see products currently available within a 50km radius. This solution aims to enhance user experience by prioritizing local deals, reducing shipping costs and times and fostering community interactions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The tech stack which will be used is: React.js for the frontend and UI of the product, Node.js with Express.js will be essential for handling server-side requests. Database like MySQL will be used for flexible data storage and retrieval, allowing for efficient handling of structured and unstructured data. Keywords: **Online Marketplace, Local Transactions, Geolocation filtering, React.js, Node.js, MySQL**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scope
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**The primary objective of this project is to develop an Online Product Exchange Platform that significantly focuses on local transactions within users in a mentioned radius field. The scope of this project is to streamline the process of local buying and selling, making it more efficient and convenient for users.**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Architecture Diagram
 
-## Learn More
+This architecture diagram serves as a high-level overview of the user's interaction with the platform, outlining the key processes involved in the online buying and selling experience.
 
-To learn more about Next.js, take a look at the following resources:
+It's important for visualizing and planning the development of such a platform, ensuring both user roles have a seamless and intuitive workflow.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The diagram is organized with clear directional flow, indicating the steps a user would take when interacting with the system either as a buyer or a seller.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The seller's journey is about product listing, while the buyer's journey is about navigating the marketplace, making a purchase, and receiving the product.
 
-## Deploy on Vercel
+## ER Diagram
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Relational Table
