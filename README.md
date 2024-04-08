@@ -21,5 +21,6 @@ The diagram is organized with clear directional flow, indicating the steps a use
 The seller's journey is about product listing, while the buyer's journey is about navigating the marketplace, making a purchase, and receiving the product.
 
 ## ER Diagram
-
+![AKV-ER Diagram](https://github.com/MajorTimberWolf/AKV/assets/110900686/5b60bbe4-d8ba-4125-a853-a15c2f8fe10e)
 ## Relational Table
+![AKV-RT Diagram](https://github.com/MajorTimberWolf/AKV/assets/110900686/41e74f4f-f9e4-437b-9f5f-8c83f352a486)
